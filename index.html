@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ApkSpark - Free App & Game Downloads</title>
+    <style>
+        /* CSS for Basic Styling */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            text-align: left; /* Set text alignment to left for English */
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px 0;
+        }
+        .search-bar {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+            display: flex;
+            align-items: center;
+        }
+        .search-bar input[type="text"] {
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            flex-grow: 1;
+            margin-right: 10px;
+        }
+        .search-bar button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #FF9800;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .section-title {
+            text-align: left;
+            border-bottom: 2px solid #ccc;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            color: #4CAF50;
+        }
+        .app-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: flex-start; /* Align grid items to the left */
+        }
+        .app-card {
+            background: #fff;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+            width: calc(33.333% - 20px); /* 3 items per row */
+            text-align: center;
+            border: 1px solid #eee;
+        }
+        .app-card img {
+            width: 60px;
+            height: 60px;
+            border-radius: 12px;
+            margin-bottom: 10px;
+        }
+        .app-card h4 {
+            margin: 5px 0;
+            font-size: 1.1em;
+        }
+        .download-btn {
+            display: inline-block;
+            background-color: #03A9F4;
+            color: white;
+            padding: 8px 15px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+            font-size: 0.9em;
+        }
+        footer a {
+            color: #FF9800;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>ApkSpark</h1>
+        <p>Your Fast, Secure, and Free Download Hub for Apps and Games</p>
+    </header>
+
+    <div class="container">
+        
+        <div class="search-bar">
+            <input type="text" placeholder="Search for any App or Game...">
+            <button>Search</button>
+        </div>
+
+        <h2 class="section-title">✨ Featured Apps & Games</h2>
+        <div class="app-grid">
+            
+            <div class="app-card">
+                <img src="https://via.placeholder.com/60" alt="Game Icon">
+                <h4>Spark Racer 3D</h4>
+                <p style="font-size: 0.9em; color: #777;">Category: Action</p>
+                <a href="#" class="download-btn">Download Now</a>
+            </div>
+
+            <div class="app-card">
+                <img src="https://via.placeholder.com/60" alt="App Icon">
+                <h4>Pro Planner</h4>
+                <p style="font-size: 0.9em; color: #777;">Category: Productivity</p>
+                <a href="#" class="download-btn">Download Now</a>
+            </div>
+
+            <div class="app-card">
+                <img src="https://via.placeholder.com/60" alt="Game Icon">
+                <h4>Puzzle Mania</h4>
+                <p style="font-size: 0.9em; color: #777;">Category: Puzzle</p>
+                <a href="#" class="download-btn">Download Now</a>
+            </div>
+
+            <div class="app-card">
+                <img src="https://via.placeholder.com/60" alt="App Icon">
+                <h4>Social Chat 24/7</h4>
+                <p style="font-size: 0.9em; color: #777;">Category: Social</p>
+                <a href="#" class="download-btn">Download Now</a>
+            </div>
+
+            <div class="app-card">
+                <img src="https://via.placeholder.com/60" alt="Game Icon">
+                <h4>Astro Drift</h4>
+                <p style="font-size: 0.9em; color: #777;">Category: Racing</p>
+                <a href="#" class="download-btn">Download Now</a>
+            </div>
+            
+            </div>
+
+        <h2 class="section-title" style="margin-top: 40px;">🆕 Recently Added</h2>
+        <div class="app-grid">
+             <div class="app-card">
+                <img src="https://via.placeholder.com/60" alt="App Icon">
+                <h4>Finance Manager</h4>
+                <p style="font-size: 0.9em; color: #777;">New Version</p>
+                <a href="#" class="download-btn" style="background-color: #FF5722;">View Update</a>
+            </div>
+        </div>
+        
+
+    </div>
+
+    <footer>
+        <p>
+            <a href="#">About Us</a> |
+            <a href="#">Privacy Policy</a> |
+            <a href="#">Contact Us</a> |
+            <a href="#">DMCA</a>
+        </p>
+        <p>&copy; 2025 ApkSpark. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
